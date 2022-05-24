@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(228, 228, 228);
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+  
+  .cellphones {
+    margin: auto;
+    margin-right: -200px;
+    /*Comentando aqui só pq o git deu problema*/
+  }
+  
+  .cellphones img {
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .rightpage {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 0px;
+  }
+  
+  .userContainer {
+    border: 2px solid gray;
+    background-color: white;
+    max-width: 550px;
+    min-width: 500px;
+    max-height: 700px;
+  }
+  .title-login {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: white;
+    margin-top: 45px;
+  }
+  .title-login img {
+    background-color: white;
+    height: 90px;
+  }
+  
+  .profile-picture {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: white;
+  }
+  
+  .profile-picture img {
+    border-radius: 90px;
+  }
+  
+  .continue-login {
+    text-align: center;
+    background-color: white;
+    margin-bottom: 25px;
+  }
+  
+  .continue-login a {
+    display: inline;
+    background: blue;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 1.6rem;
+  }
+  
+  .remove-account {
+    margin-top: 40px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 35px;
+  }
+  
+  .remove-account a {
+    color: blue;
+    font-size: 1.3rem;
+    background-color: white;
+    text-decoration: none;
+  }
+  
+  .newUsers {
+    border: 2px solid gray;
+    background-color: white;
+    max-width: 550px;
+    max-height: 700px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  .newUsers p,
+  .newUsers a {
+    background-color: white;
+    font-size: 1rem;
+  }
+  .newUsers p {
+    margin-top: 20px;
+    color: gray;
+    font-weight: bold;
+  }
+  
+  .newUsers a {
+    margin-top: 20px;
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .getTheApp {
+    text-align: center;
+    max-width: 550px;
+    margin-top: 25px;
+  }
+  .getTheApp p {
+    font-size: 1.7rem;
+  }
+  .appShops {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .appShops a img {
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 1380px) {
+    .container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .rightpage {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .cellphones {
+      margin: auto;
+      justify-content: center;
+    }
+  
+    .cellphones img {
+      min-width: 350px;
+    }
+  }
+  
